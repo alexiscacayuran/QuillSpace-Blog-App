@@ -1,0 +1,121 @@
+* {
+  font-family: "Cabin", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #070f2b !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bree Serif", serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.link-secondary,
+.link-secondary:hover {
+  color: #1b1a55 !important;
+  text-decoration-color: #1b1a5500 !important;
+}
+
+.link-secondary {
+  text-underline-offset: 0.375em !important;
+  transition: 0.3s;
+}
+
+.link-underline:hover {
+  text-decoration-color: #1b1a55 !important;
+}
+
+.btn-outline-primary {
+  border-color: #720455 !important;
+  color: #720455 !important;
+}
+
+.btn-outline-primary:hover {
+  border-color: #720455 !important;
+  color: white !important;
+  background-color: #720455 !important;
+}
+
+.btn-primary {
+  border-color: #720455 !important;
+  background-color: #720455 !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  border-color: #720455ac !important;
+  background-color: #720455ac !important;
+  color: white !important;
+}
+
+.tag {
+  color: white !important;
+  background-color: #1b1a55 !important;
+}
+
+.icon-link {
+  text-decoration: none;
+}
+
+.featured {
+  background-color: #9290c3 !important;
+  background-image: linear-gradient(white 5%, #9290c3) !important;
+}
+
+.featured .border-start {
+  border-color: #1b1a55 !important;
+}
+
+.featured h1 {
+  color: #1b1a55 !important;
+}
+
+.bg-body-tertiary {
+  background-color: #f1f0fa !important;
+}
+
+.link-body-emphasis {
+  color: #070f2b !important;
+}
+
+.tools {
+  background-color: #f1f0fa !important;
+}
+
+.btn-light {
+  border: 1px solid rgb(0, 0, 0, 0.175) !important;
+}
+
+@media (min-width: 992px) {
+  .blog {
+    width: 32% !important;
+  }
+}
+
+.btn-danger {
+  color: white !important;
+}
+
+main {
+  position: relative !important;
+  min-height: 100vh !important;
+}
+
+main > div {
+  padding-bottom: 5rem !important;
+}
+
+footer {
+  position: absolute !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 2.5rem !important;
+}
